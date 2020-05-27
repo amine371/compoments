@@ -1,8 +1,7 @@
-  
-importer  React à  partir de  'react' ;
-importer  FullName  depuis  './profile/FullName' ;
-importer  ProfilPhoto  depuis  './profile/ProfilPhoto' ;
-importer l'  adresse  depuis  './profile/Address' ;
+import  React à  partir de  'react' ;
+import  FullName  depuis  './profile/FullName' ;
+import  ProfilPhoto  depuis  './profile/ProfilPhoto' ;
+import l'  adresse  depuis  './profil/Address';
 import  './Main.css' ;
  profil  const = ( )  =>  {
   retour  (
@@ -14,4 +13,4 @@ import  './Main.css' ;
   ) ;
 }
 
-exporter  le  profil par défaut ;
+export default profil ;
