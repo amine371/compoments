@@ -1,16 +1,16 @@
-import  React à  partir de  'react' ;
-import  FullName  depuis  './profile/FullName' ;
-import  ProfilPhoto  depuis  './profile/ProfilPhoto' ;
-import l'  adresse  depuis  './profil/Address';
+import  React from 'react' ;
+import  FullName  from  './profile/FullName' ;
+import  ProfilPhoto from'./profile/ProfilPhoto' ;
+import   adresse  from  './profil/Address';
 import  './Main.css' ;
- profil  const = ( )  =>  {
-  retour  (
-    < div  className = "profilContainer" >
-    < FullName / >
-    < ProfilPhoto / >
-    < Adresse / >
-    < / div >
+ profil  const = ()=>{
+  retour(
+    <div className = "profilContainer" >
+    <FullName/>
+    <ProfilPhoto/>
+    <Adresse/>
+    </div>
   ) ;
 }
 
-export default profil ;
+export default profile ;
