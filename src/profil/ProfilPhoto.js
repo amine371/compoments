@@ -3,7 +3,7 @@ import photo from '.img/profil.jpg'
 const profilphoto=()=>{
     return(
         <div>
-        <img src ={photo} alt = "profilphoto" / >;
+        <img src ={profil} alt = "profilphoto"/>;
     );
 }
 export default profilphoto ;
