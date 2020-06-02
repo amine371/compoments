@@ -1,11 +1,11 @@
 import React from 'react';
-const fullname=()=>{
+const fullName=()=>{
     return(
         <div>
-            <div className='fullname'
+            <div className='fullName'
             <h1>amine-khadraoui:</h1>
             
             </div>
     );
 }
-export default fullname ;
+export default fullName ;
