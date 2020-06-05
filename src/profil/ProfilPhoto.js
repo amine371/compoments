@@ -1,9 +1,11 @@
-import React from 'react';
-import photo from '.img/profil.jpg'
-const profilphoto=()=>{
-    return(
-        <div>
-        <img src ={profil} alt = "profilphoto"/>;
-    );
-}
-export default profilphoto ;
+import React from "react";
+
+import photo from "./profil.jpg";
+const ProfilPhoto  = () => {
+  return (
+    <div>
+      <img src={photo} alt="ProfilPhoto" />
+    </div>
+  );
+};
+export default ProfilPhoto;
