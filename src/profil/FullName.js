@@ -1,7 +1,7 @@
 import React from "react";
 const FullName = () => {
   return (
-    <div className="FullName">
+    <div ClassName="FullName">
       <h1>amine-khadraoui</h1>
     </div>
   );
